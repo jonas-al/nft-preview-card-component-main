@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
+    height: 95vh;
     background-color: var(--mainBG);
 }
 
@@ -162,4 +162,31 @@
 .container section .content .credit p a{
     color: var(--White);
     text-decoration: none;
+}
+
+footer{
+    display: flex;
+    font-family: var(--font);
+    width: 100vw;
+    height: 5vh;
+    font-size: 14px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer a{
+    font-weight: bold;
+    color: black;
+    text-shadow: 1px 0.5px 0px #eb1491;
+    text-decoration: none;
+}
+
+footer span{
+    font-size: 2.5em;
+    padding: 0 0 10px 15px;
 }
